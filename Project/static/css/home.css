@@ -1,0 +1,29 @@
+         .buttons{margin-top:3%; margin-bottom:3%;}
+         .btn-primary{margin-right:2%; }
+         .btn-success{margin-left:2%;}
+         .heading{ margin:4%;}
+          body{font-family:times;}
+         .heading{float:right;}
+         .heading strong{font-size:50px; font-family:arial;}
+         .heading i{font-size:30px;}
+         .heading b{font-size:25px; margin-left:4%;}
+         .left{float:left; display:flex;}
+         .box{float:right; display:flex; margin-top:2%; margin-bottom:8%;}
+         .box p{font-size:20; font-weight:bold; font-family:new times roman;}
+         .box1{height:120px; width:210px; margin-right:5%; margin-left:-40%; box-shadow:5px 5px 5px gray;
+          border-radius:2px;border-style:inset;}
+         .box2{height:120px; width:210px; margin-left:5%; margin-right:5%; box-shadow: 5px 5px 5px gray;
+         border-radius:2px; border-style:inset;}
+         .box .box1 a{text-decoration:none; padding-left:13px;}
+         .box .box2 a{text-decoration:none; padding-left:13px;}
+         .box1, .box2 {text-align:center;}
+         .box .box1 a:hover{color:green;}
+         .box .box2 a:hover{color:green; text-shadow:1px 1px 1px gray;}
+         .left .btn a{font-size:20px; border-shadow: 5px 5px 5px gray;}
+         .left .btn a:hover{text-decoration:none; color:red;}
+         .logo1, .logo2{display:flex;}
+         .logo1 div{margin-right:-2%; margin-left:17%; margin-bottom:4%;}
+         .logo2 div{margin-right:-2%; margin-left:19%; margin-bottom:4%;}
+         .logo1 p{font-weight:bold; font-size:20;}
+         .logo2 p{font-weight:bold; font-size:20;}
+         h3{color:green;  font-weight:bold;}

@@ -1,0 +1,35 @@
+{% include 'navhome.html' %}
+<html>
+<head>
+    {% load static %}
+     <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+     <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <title>Welcome</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>S.NO</th>
+        <th>S.Name</th>
+        <th>Course</th>
+        <th>Start date</th>
+        <th>End date</th>
+        <th>Duration</th>
+        <th>Material</th>
+    </tr>
+    <th>
+        <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td><a href="https://meet.google.com/">
+              <input  class="btn btn-success" type="submit" value="Join now">
+          </a></td>
+    </th>
+</table>
+</body>
+</html>
